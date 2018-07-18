@@ -47,6 +47,7 @@
 		6466DC5D20E382A800147072 /* My First IOS appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First IOS appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6466DC6120E382A800147072 /* My_First_IOS_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_First_IOS_appUITests.swift; sourceTree = "<group>"; };
 		6466DC6320E382A800147072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6466DC6F20E774B400147072 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				6466DC4820E382A700147072 /* Assets.xcassets */,
 				6466DC4A20E382A700147072 /* LaunchScreen.storyboard */,
 				6466DC4D20E382A700147072 /* Info.plist */,
+				6466DC6F20E774B400147072 /* MyPlayground.playground */,
 			);
 			path = "My First IOS app";
 			sourceTree = "<group>";

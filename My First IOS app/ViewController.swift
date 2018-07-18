@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var defaultLabel: UILabel!
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBAction func buttonClick(_ sender: Any) {
+        if let name = emailTextField.text{
+            defaultLabel.text = "\(name)" + "\n" + "hello"
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,4 +31,3 @@ class ViewController: UIViewController {
 
 
 }
-
